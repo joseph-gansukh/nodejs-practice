@@ -4,6 +4,8 @@ const productRouter = require('./routes/productRoutes');
 
 const app = express();
 
+
+// Morgan shows req details 
 app.use(morgan('dev'));
 app.use(express.json());
 
